@@ -6,7 +6,7 @@ from geometry_msgs.msg import Twist
 
 import sys, select, termios, tty, configparser, os
 
-os.chdir(os.getcwd() + '/Documents/husky_kinetic/src/custom_keyboard_interface/src/')
+os.chdir(os.getcwd() + '/Documents/husky_kinetic/src/custom_keyboard_interface/custom_keyboard_interface/src/')
 
 config = configparser.ConfigParser()
 config.read('config.ini')
